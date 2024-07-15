@@ -1,6 +1,6 @@
 
 
-# Groww Edge - Stock App
+# Groww Stock App
 
 ## Overview
 
