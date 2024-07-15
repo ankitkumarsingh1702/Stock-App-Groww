@@ -70,5 +70,5 @@ If you need to start a fresh project setup, use the following command:
 ```bash
 npm run reset-project
 ```
-```
+
 
