@@ -4,7 +4,7 @@
 
 ## Overview
 
-The Groww Edge Stock App is an Android application developed as part of an assignment for an App SDE Internship. It enables users to explore and track stocks and ETFs, providing comprehensive information and historical price trends.
+The Groww Stock App is an Android application developed as part of an assignment for an App SDE Internship. It enables users to explore and track stocks and ETFs, providing comprehensive information and historical price trends.
 
 ## Key Features
 
