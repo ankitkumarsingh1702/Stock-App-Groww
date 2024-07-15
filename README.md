@@ -34,7 +34,6 @@ Clone the repository to your local machine using Git:
 
 ```bash
 git clone <repository-url>
-cd groww-edge-stock-app
 ```
 
 ### Installing Dependencies
