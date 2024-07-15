@@ -24,15 +24,15 @@ The Groww Stock App is an Android application developed as part of an assignment
 ## Screenshots 
 
 <div align="center">
-    <img src="https://github.com/user-attachments/assets/6ef7de0f-9975-4b7c-8413-93071b4866e3" width="250" hspace="20">
-    <img src="https://github.com/user-attachments/assets/08f9e130-7a58-45b5-9592-ba596d7e877f" width="250" hspace="20">
-    <img src="https://github.com/user-attachments/assets/b2b33057-6295-4b58-ae41-e117ab30c9ef" width="250" hspace="20">
+    <img src="https://github.com/user-attachments/assets/6ef7de0f-9975-4b7c-8413-93071b4866e3" width="200" hspace="10">
+    <img src="https://github.com/user-attachments/assets/08f9e130-7a58-45b5-9592-ba596d7e877f" width="200" hspace="10">
+    <img src="https://github.com/user-attachments/assets/b2b33057-6295-4b58-ae41-e117ab30c9ef" width="200" hspace="10">
 </div>
 
 <div align="center">
-    <img src="https://github.com/user-attachments/assets/5b2061dd-f0a7-4c39-9492-de941103a279" width="250" hspace="20">
-    <img src="https://github.com/user-attachments/assets/144f7c83-bf47-4d87-a5ce-1f7ebf6d6f7c" width="250" hspace="20">
-    <img src="https://github.com/user-attachments/assets/8b36b477-9689-4102-8aa8-f6ffeb6033f2" width="250" hspace="20">
+    <img src="https://github.com/user-attachments/assets/5b2061dd-f0a7-4c39-9492-de941103a279" width="200" hspace="10">
+    <img src="https://github.com/user-attachments/assets/144f7c83-bf47-4d87-a5ce-1f7ebf6d6f7c" width="200" hspace="10">
+    <img src="https://github.com/user-attachments/assets/8b36b477-9689-4102-8aa8-f6ffeb6033f2" width="200" hspace="10">
 </div>
 
 
