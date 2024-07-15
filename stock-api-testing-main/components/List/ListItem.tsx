@@ -1,0 +1,121 @@
+import { Link } from '@react-navigation/native';
+import React, { useState, useEffect } from 'react';
+import { View, Text, Image, StyleSheet, useColorScheme } from 'react-native';
+import Icon from 'react-native-vector-icons/MaterialIcons';
+import { BDRX, CINGW, CLNNW, CYN, DFLIW, GTACW, HTOOW, JFBRW, JOBY, KZIA, LCFY, MACAW, MEI, NBSTW, NEXI, SRZNW, SVMHW, TRONW } from "@/assets/stocksIcon/index";
+
+const images = [
+  BDRX, CINGW, CLNNW, CYN, DFLIW, GTACW, HTOOW, JFBRW, JOBY, KZIA, LCFY, MACAW, MEI, NBSTW, NEXI, SRZNW, SVMHW, TRONW
+];
+
+// Global variable to keep track of the last used image index
+let lastUsedIndex = 0;
+
+const getNextImage = () => {
+  const image = images[lastUsedIndex];
+  lastUsedIndex = (lastUsedIndex + 1) % images.length;
+  return image;
+};
+
+const ListItem = ({ ticker, price, change_percentage }) => {
+  const [image, setImage] = useState(null);
+  const colorScheme = useColorScheme();
+  const isDarkMode = colorScheme === 'dark';
+  const styles = isDarkMode ? darkStyles : lightStyles;
+
+  useEffect(() => {
+    setImage(getNextImage());
+  }, []);
+
+  return (
+    <View style={styles.gridItem}>
+      {image && <Image source={image} style={styles.logo} />}
+      <View style={styles.infoContainer}>
+        <Link to={`/${ticker}`}>
+          <Text style={styles.name}>{ticker}</Text>
+        </Link>
+        <Text style={styles.price}>$ {price}</Text>
+        <View style={styles.changeContainer}>
+          <Text style={styles.changePercent}>{change_percentage}</Text>
+          <Icon name="arrow-upward" size={16} color="green" />
+        </View>
+      </View>
+    </View>
+  );
+};
+
+const commonStyles = {
+  gridItem: {
+    width: '48%',
+    borderWidth: 1,
+    borderRadius: 5,
+    padding: 10,
+    marginBottom: 10,
+  },
+  logo: {
+    width: 40,
+    height: 40,
+    marginBottom: 10,
+  },
+  infoContainer: {},
+  name: {
+    fontSize: 16,
+    fontWeight: 'bold',
+  },
+  price: {
+    fontSize: 14,
+    marginTop: 7,
+  },
+  changeContainer: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    marginTop: 4,
+  },
+  changePercent: {
+    fontSize: 12,
+  },
+};
+
+const lightStyles = StyleSheet.create({
+  ...commonStyles,
+  gridItem: {
+    ...commonStyles.gridItem,
+    borderColor: '#ccc',
+    color: 'white',
+  },
+  name: {
+    ...commonStyles.name,
+    color: 'black',
+  },
+  price: {
+    ...commonStyles.price,
+    color: 'black',
+  },
+  changePercent: {
+    ...commonStyles.changePercent,
+    color: 'green',
+  },
+});
+
+const darkStyles = StyleSheet.create({
+  ...commonStyles,
+  gridItem: {
+    ...commonStyles.gridItem,
+    borderColor: '#555',
+    backgroundColor: '#333',
+  },
+  name: {
+    ...commonStyles.name,
+    color: 'white',
+  },
+  price: {
+    ...commonStyles.price,
+    color: 'white',
+  },
+  changePercent: {
+    ...commonStyles.changePercent,
+    color: 'lightgreen',
+  },
+});
+
+export default ListItem;
