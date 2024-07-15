@@ -22,7 +22,7 @@ The Groww Edge Stock App is an Android application developed as part of an assig
 2. **Product Screen**: Select a specific stock/ETF to delve into detailed information and view historical price trends.
 
 ## Demos
-
+- [YouTube Demo](https://www.youtube.com/watch?v=WZzIhNmGfug)
 - [Presentation Demo](https://drive.google.com/file/d/1Amfb4ULktImNenVawxu3F8CJCSXDxxAg/view)
 - [Prototype Demo](https://drive.google.com/file/d/1j4vinIKZxyiNReVkm4Wx96GogKdJI6pe/view?usp=sharing)
 - [Complete Demo](https://new.express.adobe.com/id/urn:aaid:sc:AP:e5f7b802-24d4-46ad-872d-9de8becc3849?invite=true&promoid=Z2G1FQKR&mv=other)
