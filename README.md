@@ -8,13 +8,13 @@ The Stock App (Groww Edge) is an Android application developed as part of an ass
 
 ## Key Features
 
-- ![Explore Icon](explore-icon.png) **Explore Screen**: Tabs for Top Gainers and Losers, displaying stock/ETF information in a grid of cards.
-- ![Product Icon](product-icon.png) **Product Screen**: Detailed view of stocks/ETFs including basic information and historical price trends using a line graph.
-- ![API Icon](api-icon.png) **API Integration**: Utilizes Alpha Vantage APIs (AlphaIntelligence, FundamentalData, CoreStocksAPI) for data retrieval.
-- ![Error Icon](error-icon.png) **Error Handling**: Robust handling of loading, error, and empty states for a seamless user experience.
-- ![Cache Icon](cache-icon.png) **Caching**: Caches API responses with expiration for improved performance.
-- ![UI Icon](ui-icon.png) **UI Enhancements**: Third-party library used for line graphs; supports dynamic theming (Light / Dark Mode).
-- ![Network Icon](network-icon.png) **Network Optimization**: Implements lazy loading for images to optimize network bandwidth.
+- 🚀 **Explore Screen**: Tabs for Top Gainers and Losers, displaying stock/ETF information in a grid of cards.
+- 🚀 **Product Screen**: Detailed view of stocks/ETFs including basic information and historical price trends using a line graph.
+- 🚀 **API Integration**: Utilizes Alpha Vantage APIs (AlphaIntelligence, FundamentalData, CoreStocksAPI) for data retrieval.
+- 🚀 **Error Handling**: Robust handling of loading, error, and empty states for a seamless user experience.
+- 🚀 **Caching**: Caches API responses with expiration for improved performance.
+- 🚀 **UI Enhancements**: Third-party library used for line graphs; supports dynamic theming (Light / Dark Mode).
+- 🚀 **Network Optimization**: Implements lazy loading for images to optimize network bandwidth.
 
 ## Usage
 
