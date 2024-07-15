@@ -1,18 +1,21 @@
-# Groww Edge - Stock App
+
+
+```markdown
+# Groww  Stock App
 
 ## Overview
 
-The Groww Edge Stock App is an Android application developed as part of an assignment for an App SDE Internship. It enables users to explore and track stocks and ETFs, providing comprehensive information and historical price trends.
+Groww Edge Stock App is an Android application developed as part of an assignment for an App SDE Internship. It allows users to explore and track stocks and ETFs, offering comprehensive information and historical price trends.
 
 ## Key Features
 
-- 📈 **Explore Screen**: Tabs for Top Gainers and Losers, displaying stock/ETF information in a grid of cards.
-- 📊 **Product Screen**: Detailed view of stocks/ETFs including basic information and historical price trends using a line graph.
-- 🌐 **API Integration**: Utilizes Alpha Vantage APIs (AlphaIntelligence, FundamentalData, CoreStocksAPI) for robust data retrieval.
-- 🛠️ **Error Handling**: Ensures smooth handling of loading, error, and empty states for a seamless user experience.
-- 🔄 **Caching**: Implements API response caching with expiration for enhanced performance.
-- 🎨 **UI Enhancements**: Incorporates a third-party library for interactive line graphs; supports dynamic theming (Light / Dark Mode).
-- 📡 **Network Optimization**: Optimizes bandwidth using lazy loading techniques for images.
+- **Explore Screen**: Tabs for Top Gainers and Losers, displaying stock/ETF information in a grid of cards.
+- **Product Screen**: Detailed view of stocks/ETFs including basic information and historical price trends using a line graph.
+- **API Integration**: Utilizes Alpha Vantage APIs (AlphaIntelligence, FundamentalData, CoreStocksAPI) for robust data retrieval.
+- **Error Handling**: Smooth handling of loading, error, and empty states for a seamless user experience.
+- **Caching**: Implements API response caching with expiration for enhanced performance.
+- **UI Enhancements**: Incorporates a third-party library for interactive line graphs; supports dynamic theming (Light / Dark Mode).
+- **Network Optimization**: Optimizes bandwidth using lazy loading techniques for images.
 
 ## Usage
 
@@ -34,31 +37,38 @@ Clone the repository to your local machine using Git:
 ```bash
 git clone <repository-url>
 cd groww-edge-stock-app
+```
+
+### Installing Dependencies
 
 Install the necessary dependencies using npm:
+
 ```bash
 npm install
+```
 
-Starting the App
+### Starting the App
+
 To start the app locally, run the following command:
+
 ```bash
 npx expo start
+```
 
-Opening the App
+### Opening the App
+
 Follow the prompts in the terminal to open the app in a development build on your preferred platform:
 
-Android emulator
-iOS simulator
-Expo Go (limited sandbox for testing)
+- Android emulator
+- iOS simulator
+- Expo Go (limited sandbox for testing)
 
+## Development Notes
 
-Development Notes
 If you need to start a fresh project setup, use the following command:
 
 ```bash
 npm run reset-project
+```
+```
 
-
-
-
-   
