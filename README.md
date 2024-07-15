@@ -1,6 +1,5 @@
 # Stock App (Groww)
 
-![App Icon](icon-link.png)
 
 ## Overview
 
